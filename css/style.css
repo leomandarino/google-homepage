@@ -47,17 +47,13 @@ li {
     font-size: 14px;
     color: #444;
     background: transparent;
-    border-style: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 
 .search-button:hover {
-    margin: 0 15px;
-    padding: 10px 15px;
-    font-size: 14px;
     color: #222;
-    background: transparent;
-    border: 1px solid #ddd;
-    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 .lang-info {
