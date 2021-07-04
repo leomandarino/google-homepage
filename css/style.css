@@ -60,3 +60,17 @@ li {
     border-radius: 3px;
 }
 
+.lang-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lang-info p {
+    font-size: 13px;
+    color: #111;
+}
+
+.lang-info a {
+    font-size: 13px;
+}
