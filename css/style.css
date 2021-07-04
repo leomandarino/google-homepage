@@ -11,9 +11,23 @@ li {
     list-style: none;
 }
 
-.nav-links {
+.nav-menu {
     display: flex;
     justify-content: right;
+}
+
+.nav-links {
+    margin: 3px 10px;
+
+}
+
+.nav-links a {
+    font-size: 13px;
+    color: #222;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
 .google-logo {
