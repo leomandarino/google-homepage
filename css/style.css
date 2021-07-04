@@ -84,3 +84,36 @@ li {
 .lang-info a {
     font-size: 13px;
 }
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.footer-menu a {
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+#menu-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
