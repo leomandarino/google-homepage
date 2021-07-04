@@ -85,6 +85,12 @@ li {
     font-size: 13px;
 }
 
+#country {
+    color: #666;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
 footer {
     border-top: 1px solid #ddd;
 }
@@ -93,6 +99,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 0 15px;
 
 }
 
