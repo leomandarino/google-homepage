@@ -7,21 +7,23 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: right;
+.nav-bar ul {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links {
-    margin: 3px 10px;
+    float: left;
 
 }
 
 .nav-links a {
+    display: block;
+    padding: 5px;
     font-size: 13px;
     color: #222;
 }
@@ -33,7 +35,7 @@ li {
 .google-logo {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .google-search {
@@ -61,12 +63,12 @@ li {
     font-size: 14px;
     color: #444;
     background: transparent;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     border-radius: 3px;
 }
 
 .search-button:hover {
-    color: #222;
+    color: #333;
     border: 1px solid #ccc;
 }
 
@@ -85,13 +87,21 @@ li {
     font-size: 13px;
 }
 
+.lang-info a:hover {
+    text-decoration: underline;
+}
+
 #country {
+    position: relative;
     color: #666;
     font-size: 14px;
     padding: 0 15px;
+    bottom: 0;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     border-top: 1px solid #ddd;
 }
 
@@ -100,7 +110,10 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0 15px;
+}
 
+.footer-menu ul {
+    list-style-type: none;
 }
 
 .footer-menu a {
